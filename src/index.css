@@ -3,7 +3,9 @@
 :root {
   --color-tet-red: #D32F2F;
   --color-tet-gold: #FFD700;
-  --font-dancing: 'Dancing Script', cursive;
+  --font-charm: 'Charm', 'Dancing Script', cursive;
+  --font-cinzel: 'Cinzel', 'Playfair Display', serif;
+  --font-dancing: 'Charm', 'Dancing Script', cursive;
   --font-playfair: 'Playfair Display', serif;
   --font-vietnam: 'Be Vietnam Pro', sans-serif;
 }
