@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useCountdown } from './hooks/useCountdown';
 import { useAudio } from './hooks/useAudio';
 import { BlossomCanvas } from './components/canvas/BlossomCanvas';
@@ -19,9 +19,14 @@ export function App() {
   const { isPlaying, togglePlay, volume, setVolume, playFireworkSound, playShakeSound } = useAudio();
 
   const [blossomType, setBlossomType] = useState<'dao' | 'mai' | ' ca-hai'>('dao');
+  const [theme, setTheme] = useState<string>('red');
   const [fireworkSignal, setFireworkSignal] = useState(0);
   const [isFortuneOpen, setIsFortuneOpen] = useState(false);
   const [isCalligraphyOpen, setIsCalligraphyOpen] = useState(false);
+
+  useEffect(() => {
+    document.body.setAttribute('data-theme', theme);
+  }, [theme]);
 
   const handleLaunchFirework = () => {
     setFireworkSignal((prev) => prev + 1);
@@ -44,6 +49,8 @@ export function App() {
         <Header
           blossomType={blossomType}
           setBlossomType={setBlossomType}
+          theme={theme}
+          setTheme={setTheme}
           isPlayingMusic={isPlaying}
           toggleMusic={togglePlay}
           onLaunchFirework={handleLaunchFirework}

@@ -10,6 +10,7 @@
   --font-vietnam: 'Be Vietnam Pro', sans-serif;
 }
 
+/* Default Red Theme */
 body {
   font-family: var(--font-vietnam);
   background-color: #0d0305;
@@ -19,6 +20,34 @@ body {
     radial-gradient(circle at 90% 80%, rgba(139, 0, 0, 0.2) 0%, transparent 50%);
   background-attachment: fixed;
   min-height: 100vh;
+  transition: background 0.5s ease;
+}
+
+/* Gold Mai Blossom Theme */
+body[data-theme="gold"] {
+  background-color: #170f04;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(245, 158, 11, 0.3) 0%, transparent 60%),
+    radial-gradient(circle at 10% 80%, rgba(255, 224, 102, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(180, 83, 9, 0.25) 0%, transparent 50%);
+}
+
+/* Pink Peach Blossom Theme */
+body[data-theme="pink"] {
+  background-color: #1a0713;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(255, 64, 129, 0.3) 0%, transparent 60%),
+    radial-gradient(circle at 10% 80%, rgba(255, 183, 197, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(194, 24, 91, 0.25) 0%, transparent 50%);
+}
+
+/* Night Lantern Sapphire Theme */
+body[data-theme="night"] {
+  background-color: #070b19;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.3) 0%, transparent 60%),
+    radial-gradient(circle at 10% 80%, rgba(56, 189, 248, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(30, 27, 75, 0.3) 0%, transparent 50%);
 }
 
 /* Custom Scrollbar */
