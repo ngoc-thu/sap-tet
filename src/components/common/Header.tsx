@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Music, VolumeX, Flame, ScrollText, Gift, UtensilsCrossed, Compass } from 'lucide-react';
+import { Sparkles, Music, VolumeX, Flame, ScrollText, Gift, UtensilsCrossed, Compass, Calendar } from 'lucide-react';
 
 interface HeaderProps {
   blossomType: 'dao' | 'mai' | ' ca-hai';
@@ -42,6 +42,14 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Nav Links */}
           <nav className="hidden lg:flex items-center space-x-6 text-sm font-medium">
+            <a
+              href="#calendar-section"
+              className="flex items-center space-x-1.5 text-amber-100 hover:text-amber-300 transition-colors px-3 py-1.5 rounded-lg hover:bg-red-900/30"
+            >
+              <Calendar className="w-4 h-4 text-amber-400" />
+              <span>Lịch Vạn Niên</span>
+            </a>
+
             <button
               onClick={onOpenFortune}
               className="flex items-center space-x-1.5 text-amber-100 hover:text-amber-300 transition-colors px-3 py-1.5 rounded-lg hover:bg-red-900/30"

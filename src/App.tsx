@@ -11,6 +11,7 @@ import { CalligraphyModal } from './components/calligraphy/CalligraphyModal';
 import { WishesSection } from './components/wishes/WishesSection';
 import { LixiCalculator } from './components/lixi/LixiCalculator';
 import { TetFoodSection } from './components/food/TetFoodSection';
+import { LunarCalendarSection } from './components/lunar/LunarCalendarSection';
 import { AudioPlayer } from './components/common/AudioPlayer';
 
 export function App() {
@@ -61,6 +62,9 @@ export function App() {
             onOpenFortune={() => setIsFortuneOpen(true)}
             onOpenCalligraphy={() => setIsCalligraphyOpen(true)}
           />
+
+          {/* Interactive Lunar Calendar Section */}
+          <LunarCalendarSection />
 
           {/* Library of Wishes */}
           <WishesSection />
