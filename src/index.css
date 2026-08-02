@@ -3,16 +3,16 @@
 :root {
   --color-tet-red: #D32F2F;
   --color-tet-gold: #FFD700;
-  --font-charm: 'Charm', 'Dancing Script', cursive;
-  --font-cinzel: 'Cinzel', 'Playfair Display', serif;
-  --font-dancing: 'Charm', 'Dancing Script', cursive;
-  --font-playfair: 'Playfair Display', serif;
-  --font-vietnam: 'Be Vietnam Pro', sans-serif;
+  --font-nunito: 'Nunito', sans-serif;
+  --font-lobster: 'Lobster', serif;
+  --font-pacifico: 'Pacifico', cursive;
+  --font-dancing: 'Dancing Script', cursive;
+  --font-vietnam: 'Nunito', sans-serif;
 }
 
 /* Default Red Theme */
 body {
-  font-family: var(--font-vietnam);
+  font-family: var(--font-nunito);
   background-color: #0d0305;
   background-image: 
     radial-gradient(circle at 50% 0%, rgba(200, 16, 46, 0.25) 0%, transparent 60%),
