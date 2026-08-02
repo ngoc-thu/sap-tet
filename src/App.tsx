@@ -11,10 +11,11 @@ import { CalligraphyModal } from './components/calligraphy/CalligraphyModal';
 import { WishesSection } from './components/wishes/WishesSection';
 import { LixiCalculator } from './components/lixi/LixiCalculator';
 import { TetFoodSection } from './components/food/TetFoodSection';
+import { AudioPlayer } from './components/common/AudioPlayer';
 
 export function App() {
   const { timeLeft, targetYear, targetCanChi, targetDate } = useCountdown();
-  const { isPlaying, togglePlay, playFireworkSound, playShakeSound } = useAudio();
+  const { isPlaying, togglePlay, volume, setVolume, playFireworkSound, playShakeSound } = useAudio();
 
   const [blossomType, setBlossomType] = useState<'dao' | 'mai' | ' ca-hai'>('dao');
   const [fireworkSignal, setFireworkSignal] = useState(0);
@@ -86,6 +87,14 @@ export function App() {
       <CalligraphyModal
         isOpen={isCalligraphyOpen}
         onClose={() => setIsCalligraphyOpen(false)}
+      />
+
+      {/* Floating Audio Player Widget */}
+      <AudioPlayer
+        isPlaying={isPlaying}
+        togglePlay={togglePlay}
+        volume={volume}
+        setVolume={setVolume}
       />
 
     </div>
