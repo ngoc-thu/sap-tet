@@ -168,7 +168,7 @@ export const TET_FOODS: TetFoodItem[] = [
     id: 'f1',
     name: 'Bánh Chưng & Bánh Tét',
     region: 'Cả 3 miền',
-    image: 'https://images.unsplash.com/photo-1610450949065-2f2214b7e8d6?q=80&w=800&auto=format&fit=crop',
+    image: './images/banh-chung.jpg',
     meaning: 'Tượng trưng cho Đất và Trời, lòng biết ơn tổ tiên và ước nguyện năm mới sung túc, ấm no.',
     description: 'Bánh chưng xanh vuông vắn miền Bắc kết hợp cùng Bánh tét tròn dài miền Nam gói trọn nếp dẻo, đỗ xanh và thịt lợn béo ngậy.'
   },
@@ -176,7 +176,7 @@ export const TET_FOODS: TetFoodItem[] = [
     id: 'f2',
     name: 'Thịt Kho Tàu (Thịt Kho Hột Vịt)',
     region: 'Nam',
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop',
+    image: './images/thit-kho-tau.jpg',
     meaning: 'Khối thịt vuông trứng tròn tượng trưng cho sự vuông tròn vuông vức, gắn kết gia đình đầm ấm.',
     description: 'Món thịt kho nước dừa xiêm vàng sóng sánh, miếng thịt mềm tan cùng quả trứng vịt ngấm vị đậm đà.'
   },
@@ -184,7 +184,7 @@ export const TET_FOODS: TetFoodItem[] = [
     id: 'f3',
     name: 'Dưa Hành & Củ Kiệu',
     region: 'Cả 3 miền',
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop',
+    image: './images/dua-hanh.jpg',
     meaning: 'Giúp cân bằng vị giác béo ngậy của bánh chưng thịt mỡ, mang ý nghĩa ngũ hành hài hòa.',
     description: 'Dưa hành muối chua ngọt giòn rụm của miền Bắc ăn kèm bánh chưng, cùng củ tôm dưa góp chua dịu.'
   },
@@ -192,7 +192,7 @@ export const TET_FOODS: TetFoodItem[] = [
     id: 'f4',
     name: 'Nem Rán (Chả Giờ)',
     region: 'Bắc',
-    image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop',
+    image: './images/nem-ran.jpg',
     meaning: 'Lớp vỏ vàng ruộm tượng trưng cho tài lộc, sự sang trọng và ấm cúng mâm cỗ Tết.',
     description: 'Nhân nem đầy đặn mộc nhĩ, miến, thịt lợn, tôm được cuốn khéo léo và rán giòn rụm.'
   },
@@ -200,7 +200,7 @@ export const TET_FOODS: TetFoodItem[] = [
     id: 'f5',
     name: 'Mâm Ngũ Quả',
     region: 'Cả 3 miền',
-    image: 'https://images.unsplash.com/photo-1610450949065-2f2214b7e8d6?q=80&w=800&auto=format&fit=crop',
+    image: './images/mam-ngu-qua.jpg',
     meaning: 'Nguyện cầu "Cầu Vừa Đủ Xài" (Mãng cầu, Dừa, Đu đủ, Xoài, Sung) cho một năm may mắn.',
     description: 'Mâm quả màu sắc tươi thắm thể hiện đạo lý uống nước nhớ nguồn và ước nguyện năm mới bội thu.'
   }
