@@ -19,13 +19,13 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['"Nunito"', '"Be Vietnam Pro"', 'sans-serif'],
-        serif: ['"Lobster"', '"Playfair Display"', 'Georgia', 'serif'],
-        cursive: ['"Pacifico"', '"Dancing Script"', 'cursive'],
+        sans: ['"Be Vietnam Pro"', '"Nunito"', 'sans-serif'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+        cursive: ['"Charm"', 'cursive'],
         nunito: ['"Nunito"', 'sans-serif'],
-        lobster: ['"Lobster"', 'serif'],
-        pacifico: ['"Pacifico"', 'cursive'],
-        dancing: ['"Dancing Script"', 'cursive'],
+        playfair: ['"Playfair Display"', 'serif'],
+        charm: ['"Charm"', 'cursive'],
+        vietnam: ['"Be Vietnam Pro"', 'sans-serif'],
       },
       animation: {
         'float-slow': 'float 6s ease-in-out infinite',

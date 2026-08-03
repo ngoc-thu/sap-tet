@@ -4,10 +4,9 @@
   --color-tet-red: #D32F2F;
   --color-tet-gold: #FFD700;
   --font-nunito: 'Nunito', sans-serif;
-  --font-lobster: 'Lobster', serif;
-  --font-pacifico: 'Pacifico', cursive;
-  --font-dancing: 'Dancing Script', cursive;
-  --font-vietnam: 'Nunito', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-cursive: 'Charm', cursive;
+  --font-vietnam: 'Be Vietnam Pro', sans-serif;
 }
 
 /* Default Red Theme */
